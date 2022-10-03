@@ -33,7 +33,7 @@ The dataset includes the following files:
 
 # The script run_analysis.R : a script to performing the analysis of the raw data into the tidy data that is tidied.pdf.
 
-# This CodeBook explaining the variables, the data, and the transformations that have been performed on the data.
+# This CodeBook explaining the variables, the data ((https://github.com/Jpund/clean-get-data-coursera/files/9700899/datatidy.pdf)), and the transformations that have been performed on the data.
 
 # The raw used is : 
 
@@ -41,7 +41,6 @@ The dataset includes the following files:
 
 - The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. These signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. The variables estimated from these signals are used here are the ones related to the mean()and the the std() Standard deviation. The mean value was calculated for each mean and standard deviation related value for each patern (tBodyAcc-XYZ, tGravityAcc-XYZ, tBodyAccJerk-XYZ, tBodyGyro-XYZ, tBodyGyroJerk-XYZ, tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag, fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccMag, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag) for each activity of each participant.
 Thanks to the raw data : 'train/X_train.txt': Training set,'train/y_train.txt': Training labels, 'test/X_test.txt': Test set and 'test/y_test.txt': Test labels. Then the train and test data sets were merged into one dataset.
-
 
 - 'activity_labels.txt': Links the class labels with their activity name.
 
@@ -54,4 +53,4 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
-Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.[datatidy.pdf]
